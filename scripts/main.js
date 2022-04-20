@@ -13,3 +13,5 @@ document.querySelector("div").innerHTML = "<h2>Hello world!</h2>";
 let newpara = document.createElement("p");
 newpara.textContent = 'This is my paragraph';
 document.querySelector("div").appendChild(newpara);
+
+document.querySelector("img").setAttribute("src","https://cdn.vox-cdn.com/thumbor/G_Ts5lMSVPW3grBjSZ924gvyg-s=/0x0:666x444/1200x800/filters:focal(266x140:372x246)/cdn.vox-cdn.com/uploads/chorus_image/image/59491841/Macaca_nigra_self-portrait__rotated_and_cropped_.0.jpg");
