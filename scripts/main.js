@@ -14,4 +14,41 @@ let newpara = document.createElement("p");
 newpara.textContent = 'This is my paragraph';
 document.querySelector("div").appendChild(newpara);
 
-document.querySelector("img").setAttribute("src","https://cdn.vox-cdn.com/thumbor/G_Ts5lMSVPW3grBjSZ924gvyg-s=/0x0:666x444/1200x800/filters:focal(266x140:372x246)/cdn.vox-cdn.com/uploads/chorus_image/image/59491841/Macaca_nigra_self-portrait__rotated_and_cropped_.0.jpg");
+document.querySelector("img").classList.add("add_border");
+
+
+//slection
+
+//if clause
+
+if (year == 2022) {
+    console.log("current year")
+}
+
+
+//functions
+
+function addyear () {
+    console.log("it ran");
+}
+
+addyear(year);
+
+//repetition (loops)
+
+const myarray = ["monke", "bruh", "yikes!"];
+
+function makelist(item) {
+    document.querySelector("div").innerHTML += "<li>" + item + "</li>";
+}
+
+myarray.foreach(makelist);
+
+
+//this is what you need for homework in week 1
+
+//lastModified property that works with document.
+
+let currentdate = document.lastModified;
+
+document.querySelector("span").textContent = currentdate;
