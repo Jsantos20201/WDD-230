@@ -33,12 +33,20 @@ body {
 
 main {
     background-color: white;
-    border-bottom: 1px groove black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .subheadings {
     background-color: #4682B4; 
     color: white;
+    padding: 5px;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+}
+
+img {
+    padding-top: 20px;
 }
 
 .box {
