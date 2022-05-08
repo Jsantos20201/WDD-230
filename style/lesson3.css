@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap'); /* Outfit', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); /* 'Varela Round', sans-serif */
+
 #content {
     max-width: 960px;
     margin: 0 auto;
@@ -25,6 +28,17 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+.test-heading-font {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #B4D29A;
+}
+
+.test-paragraph-font {
+    font-family: 'Outfit', sans-serif;
+    background-color: #F3FBEB;
+
 }
 
 img {
