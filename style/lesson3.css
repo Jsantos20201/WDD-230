@@ -33,12 +33,35 @@ h2 {
 .test-heading-font {
     font-family: 'Varela Round', sans-serif;
     background-color: #B4D29A;
+    padding: 40px;
 }
 
 .test-paragraph-font {
     font-family: 'Outfit', sans-serif;
     background-color: #F3FBEB;
+    padding: 40px;
 
+}
+
+.primary {
+    background-color: #F3FBEB;
+    padding: 40px;
+}
+
+.secondary {
+    background-color: #0A0E06;
+    color: white;
+    padding: 40px;
+}
+
+.accent-1 {
+    background-color: #B4D29A;
+    padding: 40px;
+}
+
+.accent-2 {
+    background-color: #6AA24D;
+    padding: 40px;
 }
 
 img {
