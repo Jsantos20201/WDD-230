@@ -21,7 +21,16 @@ nav ul {
 
 nav li {
     list-style-type: none;
-    padding: 2opx 51px;
+    padding: 20px 51px;
+    display: none;
+}
+
+li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
 }
 
 nav li a {
@@ -34,5 +43,13 @@ nav li a {
 @media screen and (min-width: 900px) {
     nav ul {
         flex-direction: row;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    li:first-child {
+        display: none;
     }
 }
