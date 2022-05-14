@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); 
+
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #B4D29A;
+}
+
+body {
+    background-color: #F3FBEB;
+}
