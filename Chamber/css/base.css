@@ -9,8 +9,83 @@
 
 header {
     background-color: #B4D29A;
+    border-radius: 15px;
 }
 
 body {
     background-color: #F3FBEB;
+}
+
+.menu {
+    position: relative;
+    left: 620px;
+}
+
+.logo {
+    height: 15%;
+    width: 15%;
+    border-radius: 100px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 20px 51px;
+    display: none;
+}
+
+nav li a {
+    color: #0A0E06;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+nav li {
+    list-style-type: none;
+    padding: 20px 51px;
+    display: none;
+}
+
+li:first-child {
+    display: block;
+}
+
+.active li {
+    display: block;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    li:first-child {
+        display: none;
+    }
 }
