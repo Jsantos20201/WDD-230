@@ -1,3 +1,9 @@
+let date = new Date();
+let year = date.getFullYear();
+let currentdate = document.lastModified
+let copyRight = document.getElementById("year").innerHTML = "&copy" + year + " | Joseph K. Santos | WDD 230 Project | Last Modification: " + currentdate;
+
+
 function hamBurgerandTime() {
     let hambuttom = document.querySelector(".menu");
     let mainnav = document.querySelector("nav");
