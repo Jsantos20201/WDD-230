@@ -1,0 +1,128 @@
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F3FBEB;
+}
+header {
+    background-color: #B4D29A;
+    font-family:  'Varela Round', sans-serif;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+    border-radius: 150px;
+    border: 2px solid #0A0E06;
+    display: flex;
+    margin: 0 auto;
+}
+
+main {
+    font-family: 'Outfit', sans-serif;
+}
+
+footer {
+    background-color: #B4D29A;
+    font-family:  'Varela Round', sans-serif;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+#year {
+    color: #0A0E06;
+    text-shadow: 0 0 20px black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#logo-footer {
+    width: 10%;
+    height: 10%;
+    border-radius: 150px;
+    border: 2px solid #0A0E06;
+    display: flex;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+section {
+    border: 1px solid gray;
+}
+
+/* grid */
+
+
+
+/* Formatted date */
+.date {
+    font-size: 20px;
+    background-color: #F3FBEB;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #0A0E06 ;
+}
+
+
+/* Hamburger menu */
+
+.menu {
+    position: relative;
+    right: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 20px 51px;
+    display: none;
+}
+
+nav li a {
+    color: #0A0E06;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav a:hover {
+    color: white;
+}
+
+li:first-child {
+    display: block;
+}
+
+.active li {
+    display: block;
+}
+
+@media screen and (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    li:first-child {
+        display: none;
+    }
+}
