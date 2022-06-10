@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); 
+
+
+/* Home Page*/
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F3FBEB;
+}
+header {
+    background-color: #B4D29A;
+    font-family:  'Varela Round', sans-serif;
+}
+
+.logo {
+    padding: 5px 0;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+#logo-size {
+    height: 15%;
+    width: 15%;
+    
+}
+
+main {
+    font-family: 'Outfit', sans-serif;
+}
+
+footer {
+    background-color: #B4D29A;
+    font-family:  'Varela Round', sans-serif;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+#year {
+    color: #0A0E06;
+    text-shadow: 0 0 20px black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#logo-footer {
+    width: 10%;
+    height: 10%;
+    border-radius: 150px;
+    border: 2px solid #0A0E06;
+    display: flex;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+/*form*/
+
+form section {
+    background-color: white;
+    margin: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+form section.top label, form section.business_info label {
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+form section.top input, form section.business_info input {
+    display: block;
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+form section input.description {
+    height: 100%;
+}
+
+form section.top input:required {
+    border-left: red solid 6px;
+}
+
+form section.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+
+form section.membership_levels label {
+    padding: 35px;
+    font-size: 20px;
+}
+
+form button {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    padding: .75rem 1.5rem;
+}
+
+form button:hover {
+    background-color: white;
+}
+
+#form_title {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+/* grid */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Formatted date */
+.date {
+    font-size: 20px;
+    background-color: #F3FBEB;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #0A0E06 ;
+}
+
+
+/* Hamburger menu */
+
+.menu {
+    position: relative;
+    right: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 20px 51px;
+    display: none;
+}
+
+nav li a {
+    color: #0A0E06;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav a:hover {
+    color: white;
+}
+
+li:first-child {
+    display: block;
+}
+
+.active li {
+    display: block;
+}
+
+@media screen and (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    li:first-child {
+        display: none;
+    }
+}

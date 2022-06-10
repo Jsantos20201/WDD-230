@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce for Julie Anderson in WDD 230: Web Development at Brigham Young University-Idaho">
+    <link href="style/normalize.css" rel="normalize sheet">
+    <link href="css/join/base.css" rel="stylesheet">
+    <title>Join!</title>
+</head>
+<body>
+    <div id="content">
+    <header>
+        <section class="logo">
+            <img id="logo-size" src="images/logo.jpg" alt="Company's logo">
+            <h1>Aquidneck Island</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        <span class="date"></span>
+        <nav>
+            <ul>
+                <li><a class="menu" href="#">&#9776</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discovery.html">Discover</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="form_title">Join</h1>
+        <form action="thankyou.html" method="get" autocomplete="on">
+            <section class="top">
+                <h2>Information</h2>
+                <label for="fname">First Name:</label>
+                <input id="fname" name="first_name" required>
+                <label for="lname">Last Name:</label>
+                <input id="lname" name="last_name" required>
+                <label for="email">Email:</label>
+                <input id="email" name="required_email" required placeholder="example@gmail.com">
+                <label for="phone">Phone Number:</label>
+                <input id="phone" name="telephone" type="tel" minlength="10"  placeholder="###-###-####" required>
+            </section>
+            
+            <section class="membership_levels">
+                <h2>Membership Levels</h2>
+                <label>Membership Level:</label>
+                <label><input id="membership" name="membership_level" type="radio" value="Level 1">Level 1</label>
+                <label><input id="membership" name="membership_level" type="radio" value="Level 1">Level 2</label>
+                <label><input id="membership" name="membership_level" type="radio" value="Level 1">Level 3</label>
+                <label><input id="membership" name="membership_level" type="radio" value="Level 1">Level 4</label>
+            </section>
+            
+            <section class="business_info">
+                <h2>Business Information</h2>
+                <label for="title">Business name:</label>
+                <input id="title" name="business_name" type="text" required>
+                <label for="business">Business Position:</label>
+                <input id="business" name="business_position">
+                <label for="description">Description of business:</label>
+                <input class="description" id="description" name="description">
+            </section>
+
+            <input id="date" type="hidden" name="email_sent_date">
+            <button type="submit">Submit Form</button>
+        </form>
+    </main>
+    <footer>
+        <img id="logo-footer" src="images/logo.jpg" alt="Company's logo">
+        <p>
+            name
+        </p>
+        <p>
+            city
+        </p>
+        <p>
+            address
+        </p>
+        <div id="year">
+            <p></p>
+        </div>
+    </footer>
+    </div>
+    <script defer src="js/main.js"></script>
+</body>
+</html>
