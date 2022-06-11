@@ -88,15 +88,25 @@ form section.top input, form section.business_info input {
     max-width: 600px;
 }
 
+form section textarea {
+    display: block;
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
 form section input.description {
     height: 100%;
 }
 
-form section.top input:required {
+form section.top input:required, form section.business_info input:required {
     border-left: red solid 6px;
 }
 
-form section.top input:required:valid {
+form section.top input:required:valid, form section.business_info input:required:valid { 
     border-left: green solid 6px;
 }
 
@@ -108,13 +118,18 @@ form section.membership_levels label {
 
 form button {
     border: none;
-    background-color: red;
-    color: white;
+    background-color: #B4D29A;
+    color: #0A0E06;
     border-radius: 20px;
     margin: 0 0 2rem 2%;
     width: 96%;
-    max-width: 20rem;
     padding: .75rem 1.5rem;
+    font-size: 25px;
+}
+
+form h2 {
+    font-size: 30px;
+    text-align: center;
 }
 
 form button:hover {
