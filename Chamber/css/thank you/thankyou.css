@@ -62,108 +62,17 @@ p {
     left: 20px;
 }
 
-/*form*/
-
-form section {
-    background-color: white;
-    margin: 20px;
-    border: 1px solid grey;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-form section.top label, form section.business_info label {
-    display: block;
-    padding-top: 20px;
-    font-size: 20px;
-}
-
-form section.top input, form section.business_info input {
-    display: block;
-    background-color: lightgrey;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-    width: 100%;
-    max-width: 600px;
-}
-
-form section textarea {
-    display: block;
-    background-color: lightgrey;
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 10px;
-    width: 100%;
-    max-width: 600px;
-}
-
-form section input.description {
-    height: 100%;
-}
-
-form section.top input:required, form section.business_info input:required {
-    border-left: red solid 6px;
-}
-
-form section.top input:required:valid, form section.business_info input:required:valid { 
-    border-left: green solid 6px;
-}
-
-
-form section.membership_levels label {
-    padding: 35px;
-    font-size: 20px;
-}
-
-form button {
-    border: none;
-    background-color: #B4D29A;
-    color: #0A0E06;
-    border-radius: 20px;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    padding: .75rem 1.5rem;
-    font-size: 25px;
-}
-
-form h2 {
-    font-size: 30px;
-    text-align: center;
-}
-
-form button:hover {
-    background-color: white;
-}
-
-#form_title {
-    text-align: center;
-    font-size: 40px;
-}
 
 /*thank you page*/
 
+section {
+    text-align: center;
+}
 
 
 
 
 /* grid */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
