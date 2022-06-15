@@ -31,3 +31,17 @@ getProphets(requestURL)
   card.appendChild(img);
   document.querySelector(".cards").appendChild(card);
  }
+
+
+ function displayTable(prophet) {
+  let list_row = document.createElement("tr");
+  let td_name = document.createElement("td");
+  td_name.textContent = prophet.name + " " + prophet.lastname;
+
+  let td_birthdate = document.createElement("td");
+  td_birthdate.textContent = prophet.birthdate;
+
+  list_row.appendChild(td_name);
+  list_row.appendChild(td_birthdate);
+  document.querySelector("table").appendChild(list_row);
+ }
