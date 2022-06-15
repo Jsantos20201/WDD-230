@@ -36,6 +36,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	margin-left: .5rem;
+    margin-bottom: 25px;
 }
 
 .headings h1 {
@@ -86,6 +87,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	margin-left: .5rem;
+    margin-bottom: 25px;
 }
 
 .headings-2 h1 {
@@ -168,7 +170,7 @@ nav ul {
 
 nav li {
     list-style-type: none;
-    padding: 20px 51px;
+    padding: 15px 41px;
     display: none;
 }
 
