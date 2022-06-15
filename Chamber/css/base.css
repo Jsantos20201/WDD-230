@@ -39,7 +39,7 @@ header {
 }
 
 .headings h1 {
-	font-size: 1.5rem;
+	font-size: 20px;
 }
 
 .m {
@@ -59,9 +59,7 @@ footer {
     font-family:  'Varela Round', sans-serif;
 }
 
-p {
-    text-align: center;
-}
+
 
 #year {
     color: #0A0E06;
@@ -70,16 +68,38 @@ p {
     padding-bottom: 5px;
 }
 
-#logo-footer {
-    width: 10%;
-    height: 10%;
-    border-radius: 150px;
-    border: 2px solid #0A0E06;
+/* footer */
+
+.logo-footer {
     display: flex;
-    position: relative;
-    top: 70px;
-    left: 20px;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
 }
+
+.logo-footer img {
+    width: 100px;
+	height: auto;
+}
+
+.headings-2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headings-2 h1 {
+	font-size: 20px;
+}
+
+.m-2 {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+
 
 main section {
     border: 1px solid gray;
