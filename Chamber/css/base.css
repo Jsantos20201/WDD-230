@@ -12,31 +12,46 @@
 body {
     background-color: #D3EAF2;
 }
+
+/* header */
 header {
     background-color: #2596BE;
     font-family:  'Varela Round', sans-serif;
+    
 }
 
-section.logo img {
-    height: 20%;
-    width: 20%;
-    margin-top: 20px;
-    margin-left: 20px;
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-section.logo h1 {
-    font-size: 20px;
-    margin-left: 160px;
-    position: relative;
-    bottom: 100px;
+.logo img {
+	width: 100px;
+	height: auto;
+    border-radius: 100px;
 }
 
-section.logo h2 {
-    font-size: 20px;
-    margin-left: 160px;
-    position: relative;
-    bottom: 100px;
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    margin-bottom: 25px;
 }
+
+.headings h1 {
+	font-size: 20px;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+/* */
 
 main {
     font-family: 'Outfit', sans-serif;
@@ -47,9 +62,7 @@ footer {
     font-family:  'Varela Round', sans-serif;
 }
 
-p {
-    text-align: center;
-}
+
 
 #year {
     color: #0A0E06;
@@ -58,18 +71,42 @@ p {
     padding-bottom: 5px;
 }
 
-#logo-footer {
-    width: 10%;
-    height: 10%;
-    border-radius: 150px;
-    border: 2px solid #0A0E06;
+/* footer */
+
+.logo-footer {
     display: flex;
-    position: relative;
-    top: 70px;
-    left: 20px;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 15px;
 }
 
-section {
+.logo-footer img {
+    width: 100px;
+	height: auto;
+    border-radius: 100px;
+}
+
+.headings-2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    margin-bottom: 25px;
+}
+
+.headings-2 h1 {
+	font-size: 20px;
+}
+
+.m-2 {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+
+
+main section {
     border: 1px solid gray;
 }
 
@@ -131,20 +168,19 @@ section {
 nav ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0 auto;
 }
 
 nav li {
     list-style-type: none;
-    padding: 20px 51px;
+    padding: 15px 41px;
     display: none;
 }
 
 nav li a {
     color: #0A0E06;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 20px;
     text-align: center;
 }
 
