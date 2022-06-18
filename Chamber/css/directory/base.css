@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); 
+
+
+/* Home Page*/
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #D3EAF2;
+}
+
+/* header */
+header {
+    background-color: #2596BE;
+    font-family:  'Varela Round', sans-serif;
+    
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+	width: 100px;
+	height: auto;
+    border-radius: 100px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    margin-bottom: 25px;
+}
+
+.headings h1 {
+	font-size: 20px;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+/* */
+
+main {
+    font-family: 'Outfit', sans-serif;
+}
+
+footer {
+    background-color: #2596BE;
+    font-family:  'Varela Round', sans-serif;
+}
+
+
+
+#year {
+    color: #0A0E06;
+    text-shadow: 0 0 20px black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* footer */
+
+.logo-footer {
+    display: flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 15px;
+}
+
+.logo-footer img {
+    width: 100px;
+	height: auto;
+    border-radius: 100px;
+}
+
+.headings-2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    margin-bottom: 25px;
+}
+
+.headings-2 h1 {
+	font-size: 20px;
+}
+
+.m-2 {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+/* Formatted date */
+.date {
+    font-size: 20px;
+    background-color: #F3FBEB;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #0A0E06 ;
+}
+
+
+/* Hamburger menu */
+
+.menu {
+    position: relative;
+    right: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 15px 31px;
+    display: none;
+}
+
+nav li a {
+    color: #0A0E06;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: white;
+}
+
+li:first-child {
+    display: block;
+}
+
+.active li {
+    display: block;
+}
+
+@media screen and (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    li:first-child {
+        display: none;
+    }
+}
