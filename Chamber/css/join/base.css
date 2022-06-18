@@ -4,30 +4,58 @@
 
 /* Home Page*/
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); 
+
+
+/* Home Page*/
+
 #content {
     max-width: 960px;
     margin: 0 auto;
 }
 
 body {
-    background-color: #F3FBEB;
+    background-color: #D3EAF2;
 }
+
+/* header */
 header {
-    background-color: #B4D29A;
+    background-color: #2596BE;
     font-family:  'Varela Round', sans-serif;
+    
 }
 
 .logo {
-    padding: 5px 0;
-    display: flex;
-    align-content: flex-start;
-    justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-#logo-size {
-    height: 15%;
-    width: 15%;
-    
+.logo img {
+	width: 100px;
+	height: auto;
+    border-radius: 100px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    margin-bottom: 25px;
+}
+
+.headings h1 {
+	font-size: 20px;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
 }
 
 main {
@@ -35,7 +63,7 @@ main {
 }
 
 footer {
-    background-color: #B4D29A;
+    background-color: #2596BE;
     font-family:  'Varela Round', sans-serif;
     border-radius: 15px;
 }
@@ -141,7 +169,37 @@ form button:hover {
     font-size: 40px;
 }
 
+/* footer */
+.logo-footer {
+    display: flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 15px;
+}
 
+.logo-footer img {
+    width: 100px;
+	height: auto;
+    border-radius: 100px;
+}
+
+.headings-2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    margin-bottom: 25px;
+}
+
+.headings-2 h1 {
+	font-size: 20px;
+}
+
+.m-2 {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
 
 /* grid */
 
@@ -197,20 +255,19 @@ form button:hover {
 nav ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0 auto;
 }
 
 nav li {
     list-style-type: none;
-    padding: 20px 51px;
+    padding: 15px 31px;
     display: none;
 }
 
 nav li a {
     color: #0A0E06;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 20px;
     text-align: center;
 }
 
