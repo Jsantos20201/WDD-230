@@ -1,6 +1,6 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
  
-async function getProphets(requestURL) {
+async function getBusiness(requestURL) {
     const response = await fetch(requestURL);
       if(response.ok) {
         const jsonObject = await response.json();
@@ -10,7 +10,7 @@ async function getProphets(requestURL) {
      }
 }
 
-getProphets(requestURL)
+getBusiness(requestURL)
 
  function displayProphets(prophet) {
   let card = document.createElement("section");
