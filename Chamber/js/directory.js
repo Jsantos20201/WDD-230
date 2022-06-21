@@ -6,9 +6,17 @@ async function getBusiness(requestURL) {
         const jsonObject = await response.json();
         console.log(jsonObject);
         const prophets = jsonObject["prophets"];
-        prophets.forEach(displayProphets)
+        prophets.forEach(displayProphets);
+        prophets.forEach(displayTable);
      }
 }
+
+function hamBurgerandTime() {
+  let hambuttom = document.querySelector(".menu-2");
+  let mainnav = document.querySelector("nav");
+  hambuttom.addEventListener("click", () => {mainnav.classList.toggle("active")});
+}
+
 
 getBusiness(requestURL)
 
