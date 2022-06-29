@@ -15,6 +15,11 @@ header {
     
 }
 
+.logo section .social {
+    height: 100%;
+    width: 100%;
+}
+
 .logo {
 	display: flex;
 	align-items: center;
