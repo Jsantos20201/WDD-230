@@ -237,3 +237,35 @@ li:first-child {
         display: none;
     }
 }
+
+/* page small screen*/
+
+@media screen and (max-width: 400px) {
+    #home-grid {
+        grid-template-rows: 1fr;
+    }
+
+    #hero {
+        
+    }
+
+    #event {
+        
+    }
+
+    #weather {
+        
+    }
+
+    #new-release {
+    
+    }
+
+    #spotlights {
+    
+    }
+
+    #join {
+        
+    }
+}
