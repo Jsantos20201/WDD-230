@@ -240,32 +240,35 @@ li:first-child {
 
 /* page small screen*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     #home-grid {
-        grid-template-rows: 1fr;
+        grid-template-rows: 2fr;
     }
 
     #hero {
-        
+        grid-row: 1/1;
+        grid-column: 1/2;
     }
 
     #event {
-        
+        grid-row: 2/2;        
     }
 
     #weather {
-        
+        grid-row: 3/3;
     }
 
     #new-release {
-    
+        grid-row: 4/4;
+        grid-column: 1/2;
     }
 
     #spotlights {
-    
+        grid-row: 5/5;
+        grid-column: 1/2;
     }
 
     #join {
-        
+        grid-row: 6/6;
     }
 }
