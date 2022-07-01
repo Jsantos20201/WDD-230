@@ -229,25 +229,12 @@ li:first-child {
     display: block;
 }
 
-@media screen and (min-width: 900px) {
-    nav ul {
-        flex-direction: row;
-    }
-
-    nav li {
-        display: block;
-    }
-
-    li:first-child {
-        display: none;
-    }
-}
-
 /* page small screen*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     #home-grid {
         grid-template-rows: 2fr;
+        margin: 0 auto;
     }
 
     #hero {
