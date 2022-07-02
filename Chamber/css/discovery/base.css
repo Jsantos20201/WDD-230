@@ -51,11 +51,6 @@ header {
 /* */
 
 
-.discover section h1 {
-    margin: 0 auto;
-    text-align: center;
-}
-
 
 /* footer */
 
@@ -121,7 +116,25 @@ p {
     left: 20px;
 }
 
-/* grid */
+/* The layout */
+
+.discover picture {
+    display: flex;
+    
+}
+
+.discover img {
+    margin: 10px;
+    border: 3px solid black;
+    box-shadow: 0 0 20px black;
+    width: 25%;
+}
+
+
+#home-grid section h1 {
+    text-align: center;
+    font-size: 40px;
+}
 
 
 

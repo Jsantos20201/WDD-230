@@ -1,9 +1,1 @@
-#home-grid {
-    grid-template-rows: 1fr 1fr 1fr; 
-}
 
-@media screen and (max-width: 900px) {
-    #home-grid {
-        grid-template-rows: 1fr 1fr 1fr; 
-    }
-}
