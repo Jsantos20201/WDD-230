@@ -7,10 +7,9 @@ async function getBusiness(requestURL) {
         console.log(jsonObject);
         const businesses = jsonObject["businesses"];
         businesses.forEach(displayBusiness);
+        businesses.forEach(displayTable);
      }
 }
-
-
 
 getBusiness(requestURL)
 
@@ -39,15 +38,17 @@ getBusiness(requestURL)
  }
 
 
- function displayTable(prophet) {
+ function displayTable(business) {
   let list_row = document.createElement("tr");
   let td_name = document.createElement("td");
-  td_name.textContent = prophet.name + " " + prophet.lastname;
-
-  let td_birthdate = document.createElement("td");
-  td_birthdate.textContent = prophet.birthdate;
+  td_name.textContent = business.name;
+  let address = list_row.textContent = business.address;
+  let website = list_row.textContent = business.website;
+  let phone = list_row.textContent = business.phone;
 
   list_row.appendChild(td_name);
-  list_row.appendChild(td_birthdate);
+  list_row.appendChild(address);
+  list_row.appendChild(phone);
+  list_row.appendChild(website);
   document.querySelector("table").appendChild(list_row);
  }
