@@ -172,7 +172,7 @@ main section {
     text-align: center;
 }
 
-#join button {
+#button {
     width: 50%;
     height: 20%;
     font-size: 30px;
@@ -183,7 +183,7 @@ main section {
 #new-release  h1{
     text-align: center;
     font-size: 40px;
-    border-bottom: 1px solid black;;
+    border-bottom: 1px solid black;
 }
 
 #new-release {
@@ -228,11 +228,6 @@ main section {
     justify-content: center;
     padding: 5px;
     border: 1px solid #0A0E06 ;
-}
-
-figcaption {
-    font-size: 30px;
-    padding-top: 30px;
 }
 
 #wind-speed {
