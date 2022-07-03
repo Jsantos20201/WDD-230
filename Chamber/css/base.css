@@ -109,7 +109,7 @@ footer {
 
 main section {
     border: 1px solid gray;
-    background-color: #51ABCB;
+    background-color: white;
     box-shadow: 0 0 5px black;
 }
 
@@ -118,6 +118,16 @@ main section {
 #hero img {
     width: 100%;
     height: 110%;
+}
+#weather {
+    padding: 15px;
+}
+
+#weather h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+
 }
 
 #weather_top {
@@ -128,6 +138,85 @@ main section {
 #weather_top h2{
     text-align: center;
     font-size: 3em;
+}
+
+#weather p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#event {
+    padding: 15px;
+}
+
+#event h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+#event h3 {
+    text-align: center;
+}
+#join {
+    padding: 15px;
+}
+
+#join h1{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;;
+}
+
+#join h2 {
+    text-align: center;
+}
+
+#join button {
+    width: 50%;
+    height: 20%;
+    font-size: 30px;
+    border-radius: 50px; 
+    
+}
+
+#new-release  h1{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;;
+}
+
+#new-release {
+    padding: 15px;
+}
+
+#spot-1 img, #spot-2 img, #spot-3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#spotlights h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;;
+}
+
+#spotlights section {
+    padding: 20px;
+}
+
+#spotlights {
+    padding: 20px;
+}
+
+#spot-1, #spot-2, #spot-3 {
+    margin-bottom: 50px;
+}
+
+#spotlights h2 {
+    text-align: center;
 }
 
 /* Formatted date */
