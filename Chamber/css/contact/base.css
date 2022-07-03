@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); 
+
+
+/* Home Page*/
+
+body {
+    background-color: #D3EAF2;
+}
+
+/* header */
+header {
+    background-color: #2596BE;
+    font-family:  'Varela Round', sans-serif;
+    
+}
+
+.logo section .social {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+	width: 100px;
+	height: auto;
+    border-radius: 100px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    margin-bottom: 25px;
+}
+
+.headings h1 {
+	font-size: 20px;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+/* */
+
+main {
+    font-family: 'Outfit', sans-serif;
+    padding: 30px;
+}
+
+footer {
+    background-color: #2596BE;
+    font-family:  'Varela Round', sans-serif;
+}
+
+
+
+#year {
+    color: #0A0E06;
+    text-shadow: 0 0 20px black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* footer */
+
+.logo-footer {
+    display: flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 15px;
+}
+
+.logo-footer img {
+    width: 100px;
+	height: auto;
+    border-radius: 100px;
+}
+
+.headings-2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    margin-bottom: 25px;
+}
+
+.headings-2 h1 {
+	font-size: 20px;
+}
+
+.m-2 {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+
+
+main section {
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+}
+
+/**/
+
+#hero img {
+    width: 100%;
+    height: 100%;
+}
+#weather {
+    padding: 15px;
+}
+
+#weather h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+
+}
+
+#weather_top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#weather_top h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+#weather p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#event {
+    padding: 15px;
+}
+
+#event h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+#event h3 {
+    text-align: center;
+}
+#join {
+    padding: 15px;
+}
+
+#join h1{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;;
+}
+
+#join h2 {
+    text-align: center;
+}
+
+#button {
+    width: 50%;
+    height: 20%;
+    font-size: 30px;
+    border-radius: 50px; 
+    
+}
+
+#new-release  h1{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+#new-release {
+    padding: 15px;
+}
+
+#spot-1 img, #spot-2 img, #spot-3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#spotlights h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;;
+}
+
+#spotlights section {
+    padding: 20px;
+}
+
+#spotlights {
+    padding: 20px;
+}
+
+#spot-1, #spot-2, #spot-3 {
+    margin-bottom: 50px;
+}
+
+#spotlights h2 {
+    text-align: center;
+}
+
+/* Formatted date */
+.date {
+    font-size: 20px;
+    background-color: #F3FBEB;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #0A0E06 ;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+/* Hamburger menu */
+
+.menu {
+    position: relative;
+    right: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 35px 61px;
+    display: none;
+}
+
+nav li a {
+    color: #0A0E06;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav a:hover {
+    color: white;
+}
+
+li:first-child {
+    display: block;
+}
+
+.active li {
+    display: block;
+}
+
+/* page small screen*/
+
+@media screen and (max-width: 500px) {
+    #home-grid {
+        grid-template-rows: 2fr;
+        margin: 0 auto;
+    }
+}
