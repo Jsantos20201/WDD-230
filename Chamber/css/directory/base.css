@@ -107,25 +107,25 @@ footer {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    }
+}
 
 div.cards section {
-border: 1px solid navy;
-background-color: lightblue;
-padding: 30px;
-text-align: center;
-width: 300px;
-margin: 20px;
+    border: 1px solid navy;
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
 }
 
 h2, h1 {
-color: navy;
-text-align: center;
+    color: navy;
+    text-align: center;
 }
 
 .cards img {
-width: 58%;
-box-shadow: 5px 10px 8px 5px #888888;
+    width: 58%;
+    box-shadow: 5px 10px 8px 5px #888888;
 }
 
 
@@ -161,7 +161,7 @@ table, tr, td{
 }
 
 table td {
-    font-size: 25px;
+    font-size: 9pt;
 }
 
 .display {
