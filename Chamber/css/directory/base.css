@@ -129,6 +129,42 @@ footer {
     }
 
 
+    table {
+        text-align: center;
+        margin: 50px auto;
+        width: 90%;
+        
+    }
+    
+    .table{
+        display: none;
+    }
+    
+    table tr:nth-child(odd){
+        background-color: #ccc;
+    }
+    
+    table tr:nth-child(even){
+        background-color: #efefee;
+    }
+    
+    
+    
+    table, td, th{
+        border: 1px solid gray;
+        border-collapse: collapse;
+    }
+    
+    table, tr, td{
+        height: 22px;
+        padding: 4px;
+    }
+    
+    table td {
+        font-size: 25px;
+    }
+    
+
 /* Formatted date */
 .date {
     font-size: 20px;
