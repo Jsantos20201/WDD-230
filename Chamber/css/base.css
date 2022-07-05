@@ -280,6 +280,7 @@ li:first-child {
 
 @media screen and (max-width: 500px) {
     #home-grid {
+        margin: 0 auto;
         grid-template-rows: 2fr;
         margin: 0 auto;
     }
