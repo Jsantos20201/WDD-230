@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); 
 
 
+/* Home Page*/
+
 body {
     background-color: #D3EAF2;
 }
+
 /* header */
 header {
     background-color: #2596BE;
@@ -50,7 +53,24 @@ header {
 }
 /* */
 
+main {
+    font-family: 'Outfit', sans-serif;
+    padding: 30px;
+}
 
+footer {
+    background-color: #2596BE;
+    font-family:  'Varela Round', sans-serif;
+}
+
+
+
+#year {
+    color: #0A0E06;
+    text-shadow: 0 0 20px black;
+    text-align: center;
+    padding-bottom: 5px;
+}
 
 /* footer */
 
@@ -85,54 +105,119 @@ header {
 	font-size: 0.8rem;
 }
 
-main {
-    font-family: 'Outfit', sans-serif;
+
+
+main section {
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0 0 5px black;
 }
 
-footer {
-    background-color: #2596BE;
-    font-family:  'Varela Round', sans-serif;
+/**/
+
+#hero img {
+    width: 100%;
+    height: 100%;
+}
+#weather {
+    padding: 15px;
 }
 
-p {
-    text-align: center;
-}
-
-#year {
-    color: #0A0E06;
-    text-shadow: 0 0 20px black;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-#logo-footer {
-    width: 10%;
-    height: 10%;
-    border-radius: 150px;
-    border: 2px solid #0A0E06;
-    display: flex;
-    position: relative;
-    top: 70px;
-    left: 20px;
-}
-
-/* The layout */
-
-
-
-#home-grid img{
-    border: 3px solid black;
-    box-shadow: 0 0 20px black;
-    width: 25%;
-}
-
-
-#home-grid section h1 {
+#weather h1 {
     text-align: center;
     font-size: 40px;
+    border-bottom: 1px solid black;
+
 }
 
+#weather_top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 
+#weather_top h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+#weather p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#event {
+    padding: 15px;
+}
+
+#event h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+#event h3 {
+    text-align: center;
+}
+#join {
+    padding: 15px;
+}
+
+#join h1{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;;
+}
+
+#join h2 {
+    text-align: center;
+}
+
+#button {
+    width: 50%;
+    height: 20%;
+    font-size: 30px;
+    border-radius: 50px; 
+    
+}
+
+#new-release  h1{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+#new-release {
+    padding: 15px;
+}
+
+#spot-1 img, #spot-2 img, #spot-3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#spotlights h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;;
+}
+
+#spotlights section {
+    padding: 20px;
+}
+
+#spotlights {
+    padding: 20px;
+}
+
+#spot-1, #spot-2, #spot-3 {
+    margin-bottom: 50px;
+}
+
+#spotlights h2 {
+    text-align: center;
+}
 
 /* Formatted date */
 .date {
@@ -145,6 +230,9 @@ p {
     border: 1px solid #0A0E06 ;
 }
 
+h1, h2, p {
+    text-align: center;
+}
 
 /* Hamburger menu */
 
@@ -156,13 +244,12 @@ p {
 nav ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0 auto;
 }
 
 nav li {
     list-style-type: none;
-    padding: 20px 51px;
+    padding: 35px 61px;
     display: none;
 }
 
@@ -185,17 +272,11 @@ li:first-child {
     display: block;
 }
 
-@media screen and (min-width: 900px) {
-    nav ul {
-        flex-direction: row;
-    }
+/* page small screen*/
 
-    nav li {
-        display: block;
-    }
-
-    li:first-child {
-        display: none;
+@media screen and (max-width: 500px) {
+    #home-grid {
+        grid-template-rows: 2fr;
+        margin: 0 auto;
     }
 }
-
