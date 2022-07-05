@@ -115,109 +115,7 @@ main section {
 
 /**/
 
-#hero img {
-    width: 100%;
-    height: 100%;
-}
-#weather {
-    padding: 15px;
-}
 
-#weather h1 {
-    text-align: center;
-    font-size: 40px;
-    border-bottom: 1px solid black;
-
-}
-
-#weather_top {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
-#weather_top h2{
-    text-align: center;
-    font-size: 3em;
-}
-
-#weather p {
-    font-size: 30px;
-    text-align: center;
-}
-
-#event {
-    padding: 15px;
-}
-
-#event h1 {
-    text-align: center;
-    font-size: 40px;
-    border-bottom: 1px solid black;
-}
-
-#event h3 {
-    text-align: center;
-}
-#join {
-    padding: 15px;
-}
-
-#join h1{
-    text-align: center;
-    font-size: 40px;
-    border-bottom: 1px solid black;;
-}
-
-#join h2 {
-    text-align: center;
-}
-
-#button {
-    width: 50%;
-    height: 20%;
-    font-size: 30px;
-    border-radius: 50px; 
-    
-}
-
-#new-release  h1{
-    text-align: center;
-    font-size: 40px;
-    border-bottom: 1px solid black;
-}
-
-#new-release {
-    padding: 15px;
-}
-
-#spot-1 img, #spot-2 img, #spot-3 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
-#spotlights h1 {
-    text-align: center;
-    font-size: 40px;
-    border-bottom: 1px solid black;;
-}
-
-#spotlights section {
-    padding: 20px;
-}
-
-#spotlights {
-    padding: 20px;
-}
-
-#spot-1, #spot-2, #spot-3 {
-    margin-bottom: 50px;
-}
-
-#spotlights h2 {
-    text-align: center;
-}
 
 /* Formatted date */
 .date {
@@ -274,9 +172,17 @@ li:first-child {
 
 /* page small screen*/
 
-@media screen and (max-width: 500px) {
-    #home-grid {
-        grid-template-rows: 2fr;
-        margin: 0 auto;
+@media screen and (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    li:first-child {
+        display: none;
     }
 }
+
