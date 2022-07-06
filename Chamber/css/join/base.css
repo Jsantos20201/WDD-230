@@ -102,6 +102,12 @@ form section {
     padding: 20px;
 }
 
+#membership_description {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
 form section.top label, form section.business_info label {
     display: block;
     padding-top: 20px;
