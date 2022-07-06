@@ -49,7 +49,10 @@ header {
 	font-size: 0.8rem;
 }
 /* */
-
+.banner {
+    text-align: center;
+    background-color: #F3FBEB;
+ }
 
 
 /* footer */

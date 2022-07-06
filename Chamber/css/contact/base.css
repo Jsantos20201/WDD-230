@@ -115,7 +115,10 @@ main section {
 
 /**/
 
-
+.banner {
+    text-align: center;
+    background-color: #F3FBEB;
+ }
 
 /* Formatted date */
 .date {
