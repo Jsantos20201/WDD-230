@@ -16,6 +16,12 @@ header {
     
 }
 
+.social {
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+
 .banner {
     text-align: center;
     background-color: #F3FBEB;
@@ -29,12 +35,11 @@ header {
     padding-bottom: 10px;
 }
 
-.logo img {
+.logo_img   {
 	width: 100px;
 	height: auto;
     border-radius: 100px;
 }
-
 .headings {
 	display: flex;
 	flex-direction: column;

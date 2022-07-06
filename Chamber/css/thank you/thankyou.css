@@ -24,6 +24,12 @@ header {
     justify-content: flex-start;
 }
 
+.logo_img   {
+	width: 100px;
+	height: auto;
+    border-radius: 100px;
+}
+
 #logo-size {
     height: 15%;
     width: 15%;
@@ -73,7 +79,12 @@ section {
     text-align: center;
     background-color: #F3FBEB;
  }
-
+ 
+ .social {
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
 
 /* grid */
 
