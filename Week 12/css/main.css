@@ -93,8 +93,30 @@ p {
     padding-bottom: 50px;
 }
 
+#primary {
+    background-color: #A5DAF3;
+    padding: 30px;
+}
+
+#secondary {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+#accent-1 {
+    background-color: #FFE285;
+    padding: 30px;
+}
+
+#accent-2 {
+    background-color: #BFEBAD;
+    padding: 30px;
+}
+
 /* footer */
 footer {
+    font-family: 'Nanum Myeongjo', serif;
     background-color: #A5DAF3;
     border-radius: 8px;
 }
