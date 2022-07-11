@@ -14,6 +14,14 @@ header {
     height: 25%;
 }
 
+.logo {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .menu {
     position: relative;
     right: 35px;
