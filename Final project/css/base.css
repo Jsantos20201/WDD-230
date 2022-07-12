@@ -87,6 +87,7 @@ footer {
     width: 60px;
     height: auto;
     padding: 20px;
+    border: 1px solid black;
     
 }
 #logo-2 p {
