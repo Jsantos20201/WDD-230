@@ -1,0 +1,21 @@
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+
+#weather {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+#reservations {
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+#temple {
+    grid-column: 2/2;
+    grid-row: 1/1;
+}

@@ -73,6 +73,99 @@ main section {
     border: 1px solid black;
 }
 
+h1 {
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 1px solid #FFE285;
+    padding: 10px;
+}
+
+#weather {
+    padding: 20px;
+    height: 50%;
+}
+
+#weather_top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#weather_top h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+#weather p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#weather h1 {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid #FFE285;
+    text-align: center;
+    padding: 10px;
+}
+
+#reservations {
+    padding: 20px;
+    height: 50%;
+}
+
+#reservations button {
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+#reservations button:hover{
+    background-color: #FFE285;
+}
+
+#reservations h1 {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid #FFE285;
+    text-align: center;
+    padding: 10px;
+}
+
+#reservations h2 {
+    text-align: center;
+}
+
+#temple h1 {
+    font-size: 50px;
+    border-bottom: 1px solid #FFE285;
+    text-align: center;
+    padding: 10px;
+}
+
+#temple {
+    padding: 20px;
+    
+}
+
+#temple h2 {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #FFE285;
+    padding: 10px;
+}
+
+#temple p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#temple img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 150px
+}
 
 
 /* footer */
