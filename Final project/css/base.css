@@ -10,11 +10,12 @@ header {
 }
 
 #logo img {
-    width: 25%;
-    height: 25%;
+    width: 400px;
+	height: auto;
+    border-radius: 100px;
 }
 
-.logo {
+#logo {
 	display: inline-flex;
 	align-items: center;
 	margin-left: 1rem;
@@ -27,15 +28,20 @@ header {
     right: 35px;
 }
 
+nav {
+    width: 100%;
+}
+
 nav ul {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0;
+
 }
 
 nav li {
     list-style-type: none;
-    padding: 35px;
+    padding: 60px;
     display: none;
 }
 
@@ -62,7 +68,3 @@ footer {
     background-color: #A5DAF3;
 }
 
-#logo-2 img {
-    width: 25%;
-    height: 25%;
-}
