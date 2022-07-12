@@ -68,3 +68,21 @@ footer {
     background-color: #A5DAF3;
 }
 
+#logo-2 {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo-2 img {
+    width: 400px;
+	height: auto;
+    border-radius: 100px;
+}
+
+#social img {
+    width: 50px;
+    height: auto;
+}
