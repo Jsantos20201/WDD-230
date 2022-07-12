@@ -63,6 +63,18 @@ li:first-child {
     display: block;
 }
 
+
+/* main */
+main {
+    padding: 20px;
+}
+
+main section {
+    border: 1px solid black;
+}
+
+
+
 /* footer */
 footer {
     background-color: #A5DAF3;
