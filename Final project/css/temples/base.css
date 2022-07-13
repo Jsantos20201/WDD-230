@@ -24,6 +24,7 @@ header {
 }
 
 .menu {
+    color: #0A0E06;
     position: relative;
     right: 35px;
 }
@@ -41,7 +42,7 @@ nav ul {
 
 nav li {
     list-style-type: none;
-    padding: 60px;
+    padding: 20px;
     display: none;
 }
 
@@ -94,7 +95,9 @@ main {
 }
 
 div.cards section {
-    background-color: #A5DAF3;
+    background-color: #BFEBAD;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
     padding: 30px;
     text-align: center;
     width: 600px;
@@ -109,6 +112,7 @@ h1 {
 
 section h2, section h1 {
     color: #FFFFFF;
+    text-shadow: 0 0 10px #FFE285;
     border-bottom: 1px solid#FFE285;
     font-size: 40px;
     padding: 10px;
@@ -117,6 +121,11 @@ section h2, section h1 {
 
 .cards img {
     width: 100%;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
 }
 
 .like {
@@ -147,7 +156,7 @@ footer {
 	margin-left: 1rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    gap: 400px;
+    
 }
 
 #logo-2 img {
