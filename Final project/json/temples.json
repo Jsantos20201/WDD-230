@@ -7,8 +7,7 @@
             "email": "BOSTO-OFF@ChurchofJesusChrist.org",
             "services": "Clothing rental available.\n No cafeteria available.\nNo patron housing available.\nDistribution center nearby.",
             "history":"30 September 1995: Annouced\n13 June 1997: Groundbreaking\n1 October 2000: Dedicated." ,
-            "Ordinance": "Proxy Baptism: Wednesday, July 13, 2022 at 9:02 AM\n",
-            "session": "",
+            "Ordinance": "https://www.churchofjesuschrist.org/temples/details/boston-massachusetts-temple?lang=eng",
             "closure": "2022: Monday, 26 September 2022 - Monday, 17 October 2022", 
             "imgulrl": "https://assets.ldscdn.org/9d/19/9d19bab74ee92c28620ac37241713ab98cdf2263/boston_temple_lds.jpeg"
         },
@@ -20,8 +19,7 @@
             "email": "REXBU-OFF@ChurchofJesusChrist.org",
             "services": "Clothing rental available.\n No cafeteria available.\nNo patron housing available.\nDistribution center nearby.",
             "history":"12 December 2003: Annouced\n30 July 2005: Groundbreaking\n10 February 2008: Dedicated" ,
-            "Ordinance": "",
-            "session": "",
+            "Ordinance": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
             "closure": "2022\nSaturday, 23 July 2022\nSaturday, 1 October 2022\nWednesday, 23 November 2022 - Thursday, 24 November 2022\n Saturday, 24 December 2022\nSaturday, 31 December 2022",
             "imgurl": "https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg"
         },
@@ -31,10 +29,9 @@
             "address": "9900 Stoneybrook Dr, Kensington MD 20895-3199, United States",
             "telephone":"(1) 301-588-0650" ,
             "email": "WASHI-OFF@ChurchofJesusChrist.org",
-            "services": "",
+            "services": "No services at the moment.",
             "history": "15 November 1968: Announced\n7 December 1968: Groundbreaking\n19 November 1974\n14 August 2022: Rededicated",
-            "Ordinance": "",
-            "session": "",
+            "Ordinance": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
             "closure": "Tuesday, 20 July - Sunday, 14 August 2022",
             "imgurl": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg"
         },
@@ -46,8 +43,7 @@
             "email": "ORLAN-OFF@ChurchofJesusChrist.org",
             "services": "Clothing rental available.\n No cafeteria available.\nNo patron housing available.\nDistribution center nearby.",
             "history":"6 April 1991\n20 June 1992\n9 October 1994",
-            "Ordinance": "",
-            "session": "",
+            "Ordinance": "https://www.churchofjesuschrist.org/temples/details/orlando-florida-temple?lang=eng",
             "closure": "Sunday, 28 August 2022 - Monday, 19 September 2022\nSaturday, 1 October 2022\nWednesday, 23 November 2022 - Thursday, 24 November 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022",
             "imgurl": "https://assets.ldscdn.org/60/ed/60ed4690406166989ec9b3e92afc020469f7bc06/orlando_temple_lds.jpeg"
         }
