@@ -5,11 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Final project for Julie Anderson in WDD 230: Web Development at Brigham Young University-Idaho">
-        <link href="css/base.css" rel="stylesheet">        
+        <link href="css/temples/base.css" rel="stylesheet">        
         <link href="../style/normalize.css" rel="normalizesheet">
-        <link href="css/medium.css" rel="stylesheet">
-        <link href="css/large.css" rel="stylesheet">
-        <title>Temple Inn & Suites</title>
+        <title>Temples</title>
     </head>
     <body>
         <header>
@@ -31,40 +29,11 @@
             </div>
         </header>
         <main>
-            <h1>Temple Inn & Suites</h1>
             <div id="home-grid">
-                <section id="weather">
-                    <h1>Weather</h1>
-                    <div id="weather_top">
-                        <h2><span id="temp"></span>&#8457;</h2>
-                        <figure><img src="#" alt="Placeholder" id="weathericon" />
-                            <figcaption></figcaption>
-                        </figure>
-                    </div>
-                    <p>Wind: <span id="wind"></span> MPH</p>
-                    <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
-                </section>
-                <section id="reservations">
-                    <h1>Reservations</h1>
-                    <h2>Are you looking for reservations near a temple? Well, you're in luck! 
-                        Temple Inn & Suites is here to provide a place to stay for all families and temple workers. 
-                        Click here to become one step closer to visiting the temple!
-                    </h2>
-                    <a href="#"><button id="button">Reserve</button></a>
-                </section>
-                <section id="temple">
+                <div>
                     <h1>Temples</h1>
-                    <picture>
-                        <img src="image/boston temple.jpg" alt="Boston Temple">
-                    </picture>
-                    <h2>Boston Temple, Massachusetts</h2>
-                    <p>
-                        dfngngihidfhgihvpi  vhsfsdjfbhsdf iuf fhosuefhe fsuef oseufsoeufgosuefgosiUEfgousefh sUF sUIEHFoSUEfh suef oseuf seouifhbos euifo suefg sef
-                        feesuifhoseufghosuef soeuf oseiufgousefg uesfg esf eSFieSPfupegf psef osefghouisefhg seufgh selgfse
-                        fesf uisegf oseiufgoSIEUfgoisEUgfsiuegfosuegf uGEF ouirihg drghzruhgozdsruhgoudzrhguzdhrg pzuhg zuhg zsug
-                        spiofh sirghrpighprizdgpdirhgpoidhgpjkdrgpzdrhpg idhrzpgid zrigdz idhrzpgid
-                    </p>
-                </section>
+                </div>
+                <div class="cards"></div>
             </div>
         </main>
         <footer>
@@ -90,6 +59,7 @@
                 <p></p>
             </div>
         </footer>
+        <script defer src="scripts/temples.js"></script>
         <script defer src="scripts/main.js"></script>
     </body>
 </html>

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+body {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/* header */
+header {
+    background-color: #A5DAF3;
+}
+
+#logo img {
+    width: 400px;
+	height: auto;
+    border-radius: 100px;
+}
+
+#logo {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    position: relative;
+    right: 35px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+nav li {
+    list-style-type: none;
+    padding: 60px;
+    display: none;
+}
+
+nav li a {
+    color: #0A0E06;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: white;
+}
+
+li:first-child {
+    display: block;
+}
+
+.active li {
+    display: block;
+}
+
+@media screen and (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    li:first-child {
+        display: none;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+/* main */
+main {
+    padding: 20px;
+}
+
+
+/* footer */
+footer {
+    background-color: #A5DAF3;
+}
+
+#logo-2 {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 400px;
+}
+
+#logo-2 img {
+    width: 400px;
+	height: auto;
+    border-radius: 100px;
+}
+
+#social img {
+    width: 60px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+#logo-2 p {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+#year {
+    color: #0A0E06;
+    text-shadow: 0 0 20px black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#updated-date {
+    color: yellow;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
