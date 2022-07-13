@@ -1,0 +1,51 @@
+{
+    "temples": [
+        {
+            "title": "Boston Massachusetts Temple",
+            "address": "100 Hinckley Wy, Belmont MA 02478-2135, United States",
+            "telephone": "(1) 617-933-9993",
+            "email": "BOSTO-OFF@ChurchofJesusChrist.org",
+            "services": "Clothing rental available.\n No cafeteria available.\nNo patron housing available.\nDistribution center nearby.",
+            "history":"30 September 1995: Annouced\n13 June 1997: Groundbreaking\n1 October 2000: Dedicated." ,
+            "Ordinance": "Proxy Baptism: Wednesday, July 13, 2022 at 9:02 AM\n",
+            "session": "",
+            "closure": "2022: Monday, 26 September 2022 - Monday, 17 October 2022", 
+            "imgulrl": "https://assets.ldscdn.org/9d/19/9d19bab74ee92c28620ac37241713ab98cdf2263/boston_temple_lds.jpeg"
+        },
+
+        {
+            "title": "Rexburg Idaho Temple",
+            "address": "750 S 2nd E, Rexburg ID 83440-5404, United States",
+            "telephone": "(1) 208-656-0880",
+            "email": "",
+            "services": "",
+            "history":"" ,
+            "Ordinance": "",
+            "session": "",
+            "closure": "",
+            "imgurl": "https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg"
+        },
+
+        {
+            "address": "",
+            "telephone":"" ,
+            "email": "",
+            "services": "",
+            "history":"" ,
+            "Ordinance": "",
+            "session": "",
+            "closure": ""
+        },
+
+        {
+            "address": "",
+            "telephone":"" ,
+            "email": "",
+            "services": "",
+            "history":"" ,
+            "Ordinance": "",
+            "session": "",
+            "closure": ""
+        }
+    ]
+}
