@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Final project for Julie Anderson in WDD 230: Web Development at Brigham Young University-Idaho">     
+        <link href="../style/normalize.css" rel="normalizesheet">
+        <title>Reservations</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <picture>
+                    <img src="image/logo.jpg" alt="Temple Inn & Suites logo">
+                </picture>
+                <nav>
+                    <ul>
+                        <li><a class="menu" href="#">&#9776</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="temlpes.html">Temples</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Receptions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div id="home-grid">
+                <h1>Reservations</h1>
+                <form action="form_title" method="get" autocomplete="on">
+                    <section class="name">
+                        <h1>Full Name</h1>
+                        <label for="fname">First Name:</label>
+                        <input id="fname" type="text" name="first_name" required>
+                        <label for="lname">Last Name:</label>
+                        <input id="lname" type="text" name="last_name" required>
+                    </section>
+                    <section class="address">
+                        <h1>Address</h1>
+                        <label for="street">Street Address:</label>
+                        <input id="street" type="text" name="street_address" required>
+                        <label for="street_2">Street Address Line 2:</label>
+                        <input id="street_2" type="text" name="street_address_2">
+                        <label for="city">City:</label>
+                        <input id="city" type="text" required name="city">
+                        <label for="state">State/Province:</label>
+                        <input id="state" name="state_province" required type="text">
+                        <label for="zip_code">Postal/Zip Code:</label>
+                        <input id="zip_code" required type="text" name="zip_code">
+                        <label for="country">Country:</label>
+                        <input id="country" required name="country" type="text">
+                    </section>
+                    <section class="phone">
+                        <h1>Phone Number</h1>
+                        <label for="phone_number">Phone Number:</label>
+                        <input id="phone_number" name="telephone" type="tel" minlength="10" placeholder="###-###-####" required>
+                    </section>
+                    <section class="email">
+                        <label for="e_mail">E-mail:</label>
+                        <input id="e_mail" required name="required_email" placeholder="example@gmail.com">
+                    </section>
+                    <section class="rooms">
+                        <h1>Types of Rooms</h1>
+                        <picture>
+                            <img src="image/rsz_1rsz_room_1.jpg" alt="Single room with twin beds.">
+                        </picture>
+                        <p>Two twin-sized beds</p>
+                        <picture>
+                            <img src="image/rsz_1rsz_4rsz_1room_2.jpg" alt="Queen sized beds">
+                        </picture>
+                        <p>Queen sized beds</p>
+                        <picture>
+                            <img src="image/rsz_room3.jpg" alt="King's bed">
+                        </picture>
+                        <p>King sized beds</p>
+                        <h2>Single Room</h2>
+                        <label><input id="room1" name="room_1" type="radio">Twin Sized Beds: $100</label>
+                        <label><input id="room2" name="room_2" type="radio">Queen Sized Beds: $130</label>
+                        <label><input id="room3" name="room_3" type="radio">King Sized Beds: $170</label>
+                        <h2>Double Room</h2>
+                        <label><input id="room1" name="room_1" type="radio">Twin Sized Beds: $130</label>
+                        <label><input id="room2" name="room_2" type="radio">Queen Sized Beds: $170</label>
+                        <label><input id="room3" name="room_3" type="radio">King Sized Beds: $200</label>
+                    </section>
+                    <section class="date">
+                        <h1>Arrival - Date</h1>
+                        <label for="arrival_date">Arrival Date:</label>
+                        <input type="date" id="arrival_date" name="date_of_arrival" required>
+                        <h1>Departure - Date</h1>
+                        <label for="departure_date">Departure Date:</label>
+                        <input type="date" id="departure_date" name="date_of_departure" required>
+                    </section>
+                    <section class="description">
+                        <label for="description">Any special accommodations/comments:</label>
+                        <textarea id="description" name="description" rows="8"></textarea>
+                    </section>
+                    <input id="button" type="hidden" name="email_sent_date">
+                    <button type="submit">Submit Form</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="logo-2">
+                <picture>
+                    <img src="image/logo.jpg" alt="Temple Inn & Suites logo">
+                </picture>
+                <p>
+                    templeinsuites@gmail.com<br>(345)345-68594<br>4800 Montgomery Ln #300,<br> Bethesda, MD 20814
+                </p>
+                <picture>
+                    <p>Follow us!</p>
+                    <div id="social">
+                        <a href="https://www.facebook.com/"><img src="image/rsz_facebook_icon_.png" alt="facebook"></a>
+                        <a href="https://www.instagram.com/?hl=en"><img src="image/rsz_1rsz_1instagram-logo.png" alt="instagram"></a>
+                    </div>
+                </picture>
+            </div>
+            <div id="year">
+                <p></p>
+            </div>
+            <div id="updated-date">
+                <p></p>
+            </div>
+        </footer>
+        <script defer src="scripts/temples.js"></script>
+        <script defer src="scripts/main.js"></script>
+    </body>
+</html>
