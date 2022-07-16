@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Final project for Julie Anderson in WDD 230: Web Development at Brigham Young University-Idaho">     
         <link href="../style/normalize.css" rel="normalizesheet">
+        <link href="css/reservations/base.css" rel="stylesheet">
         <title>Reservations</title>
     </head>
     <body>
@@ -29,7 +30,7 @@
         </header>
         <main>
             <div id="home-grid">
-                <h1>Reservations</h1>
+                <h1 id="title">Reservations</h1>
                 <form action="form_title" method="get" autocomplete="on">
                     <section class="name">
                         <h1>Full Name</h1>
@@ -56,7 +57,7 @@
                     <section class="phone">
                         <h1>Phone Number</h1>
                         <label for="phone_number">Phone Number:</label>
-                        <input id="phone_number" name="telephone" type="tel" minlength="10" placeholder="###-###-####" required>
+                        <input id="phone_number" name="telephone" type="tel" minlength="10" required placeholder="###-###-####">
                     </section>
                     <section class="email">
                         <label for="e_mail">E-mail:</label>
@@ -64,26 +65,30 @@
                     </section>
                     <section class="rooms">
                         <h1>Types of Rooms</h1>
-                        <picture>
+                        <picture id="img1">
                             <img src="image/rsz_1rsz_room_1.jpg" alt="Single room with twin beds.">
+                            <p>Two twin-sized beds</p>
                         </picture>
-                        <p>Two twin-sized beds</p>
-                        <picture>
+                        <picture id="img2">
                             <img src="image/rsz_1rsz_4rsz_1room_2.jpg" alt="Queen sized beds">
+                            <p>Queen sized beds</p>
                         </picture>
-                        <p>Queen sized beds</p>
-                        <picture>
+                        <picture id="img3">
                             <img src="image/rsz_room3.jpg" alt="King's bed">
+                            <p>King sized beds</p>
                         </picture>
-                        <p>King sized beds</p>
-                        <h2>Single Room</h2>
-                        <label><input id="room1" name="room_1" type="radio">Twin Sized Beds: $100</label>
-                        <label><input id="room2" name="room_2" type="radio">Queen Sized Beds: $130</label>
-                        <label><input id="room3" name="room_3" type="radio">King Sized Beds: $170</label>
-                        <h2>Double Room</h2>
-                        <label><input id="room1" name="room_1" type="radio">Twin Sized Beds: $130</label>
-                        <label><input id="room2" name="room_2" type="radio">Queen Sized Beds: $170</label>
-                        <label><input id="room3" name="room_3" type="radio">King Sized Beds: $200</label>
+                        <div id="single_room">
+                            <h2>Single Room</h2>
+                            <label><input id="room1" name="room_1" type="radio"> Twin Sized Beds: $100</label><br>
+                            <label><input id="room2" name="room_2" type="radio"> Queen Sized Beds: $130</label><br>
+                            <label><input id="room3" name="room_3" type="radio"> King Sized Beds: $170</label>
+                        </div>
+                        <div id="double_room">
+                            <h2>Double Room</h2>
+                            <label><input id="room1" name="room_1" type="radio"> Twin Sized Beds: $130</label><br>
+                            <label><input id="room2" name="room_2" type="radio"> Queen Sized Beds: $170</label><br>
+                            <label><input id="room3" name="room_3" type="radio"> King Sized Beds: $200</label>
+                        </div>
                     </section>
                     <section class="date">
                         <h1>Arrival - Date</h1>
