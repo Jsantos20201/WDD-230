@@ -1,0 +1,16 @@
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+@media screen and (min-width: 900px){
+    #receptions {
+        grid-column: 1/2;
+    }
+
+    #missionary {
+        grid-column: 2/2;
+    }
+}
