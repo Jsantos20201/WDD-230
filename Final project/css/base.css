@@ -80,6 +80,49 @@ h1 {
     padding: 10px;
 }
 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.slideshow-container img {
+    width: 1850px;;
+    height: 700px;
+    object-fit: cover;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
 
 
 #weather {
@@ -97,8 +140,17 @@ h1 {
     font-size: 3em;
 }
 
+#weathericon {
+    width: 100px;
+    height: auto;
+}
+
+#temp {
+    font-size: 60px;
+}
+
 #weather p {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -109,10 +161,13 @@ h1 {
     text-align: center;
     padding: 10px;
 }
+#weather {
+    height: 100%;
+}
 
 #reservations {
     padding: 20px;
-    height: 50%;
+    height: 100%;
 }
 
 #reservations button {
@@ -146,8 +201,7 @@ h1 {
 }
 
 #temple {
-    padding: 20px;
-    
+    padding: 40px;
 }
 
 #temple h2 {
