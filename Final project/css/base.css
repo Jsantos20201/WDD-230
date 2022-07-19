@@ -122,9 +122,6 @@ h1 {
 }
 
 
-
-
-
 #weather {
     padding: 20px;
     height: 50%;
@@ -222,6 +219,22 @@ h1 {
     margin-right: auto;
     border-radius: 5px 150px
 }
+
+#social_media {
+    padding: 20px;
+}
+
+#social_media h2 {
+    text-align: center;
+}
+
+#social_media picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 
 /* footer */
