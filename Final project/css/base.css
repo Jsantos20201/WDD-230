@@ -218,6 +218,17 @@ h1 {
     border-radius: 5px 150px
 }
 
+#temple button {
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+#temple button:hover{
+    background-color: #FFE285;
+}
+
 #social_media {
     padding: 20px;
 }
