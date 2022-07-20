@@ -80,6 +80,7 @@ h1 {
     padding: 10px;
 }
 
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -105,10 +106,10 @@ h1 {
 
 .slideshow-container img {
     width: 1850px;
-    height: 600px;
+    height: 700px;
     object-fit: cover;
+    border: 1px solid black;
 }
-
 
 /* Fading animation */
 .fade {
