@@ -271,14 +271,32 @@ footer {
     background-color: #A5DAF3;
 }
 
+
 #logo-2 {
-	display: inline-flex;
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
 	margin-left: 1rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    gap: 400px;
+
 }
+
+@media screen and (max-width: 800px) {
+    #logo-2 {
+        grid-template-columns: 1fr;
+    }
+
+    #logo img {
+        width: 250px;
+    }
+
+    #logo_company {
+        width: 250px;
+    }
+    
+}
+
 
 #logo-2 img {
     width: 400px;
@@ -287,9 +305,12 @@ footer {
 }
 
 #social img {
+    display: block;
     width: 60px;
     height: auto;
     padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
     border: 1px solid black;
     
 }
