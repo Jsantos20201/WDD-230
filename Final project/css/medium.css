@@ -14,22 +14,4 @@
 
 }
 
-@media screen and (max-width: 800px){
-    .slideshow-container img {
-        width: 670px;
-    }
 
-    #home-grid {
-        grid-template-columns: 1fr;
-    }
-
-    #weather {
-        grid-column: 1/1;
-        grid-row: 2/2;
-    }
-
-    #reservations {
-        grid-column: 1/1;
-        grid-row: 3/3;
-    }
-}

@@ -5,6 +5,7 @@ body {
 }
 
 /* header */
+
 header {
     background-color: #A5DAF3;
 }
@@ -276,6 +277,7 @@ footer {
 	margin-left: 1rem;
     padding-top: 10px;
     padding-bottom: 10px;
+    gap: 400px;
 }
 
 #logo-2 img {
