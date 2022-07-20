@@ -32,8 +32,4 @@
         grid-column: 1/1;
         grid-row: 3/3;
     }
-
-    #temple {
-        grid-row: 4/4;
-    }
 }
